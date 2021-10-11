@@ -16,7 +16,11 @@ console.log(sconto_giovane);
 
 
 // calcolo 
-
+if (eta_passeggero >= 65) {
+    document.getElementById("sconto_anzino").innerHTML = "hai uno sconto del 40%"
+} else if (eta_passeggero <= 17) {
+    document.getElementById("sconto_giovane").innerHTML = "hai uno sconto del 20%"
+} else {
 
 
 
