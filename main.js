@@ -7,5 +7,23 @@ const eta_passeggero = prompt("età passeggero");
 
 //sconti
 
-const sconto_anziano = (km_da_percorrere * 0.21 - 40 % )
-const sconto_giovane = (km_da_percorrere * 0.21 - 20 %)
+const sconto_anziano = (km_da_percorrere * 0.13);
+console.log(sconto_anziano);
+
+const sconto_giovane = (km_da_percorrere * 0.17);
+console.log(sconto_giovane);
+
+
+
+// calcolo 
+
+
+
+
+
+
+
+
+
+
+
