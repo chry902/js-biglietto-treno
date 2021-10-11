@@ -13,14 +13,15 @@ console.log(sconto_anziano);
 const sconto_giovane = (km_da_percorrere * 0.17);
 console.log(sconto_giovane);
 
+const tariffa_ordinaria = (km_da_percorrere * 0.21)
 
 
-// calcolo 
+// calcolo
 if (eta_passeggero >= 65) {
     document.getElementById("sconto_anzino").innerHTML = "hai uno sconto del 40%"
 } else if (eta_passeggero <= 17) {
     document.getElementById("sconto_giovane").innerHTML = "hai uno sconto del 20%"
-} else {
+} else
 
 
 
